@@ -21,3 +21,4 @@ R[265:288]<-c('u','s','e','R','!','2','0','1','4','-','-',
 R<-as.data.frame(t(matrix(R,ncol=24)))
 names(R)<-rep('.',24)
 R
+# write.table(R, file="tshirtImage.txt", quote=FALSE)
