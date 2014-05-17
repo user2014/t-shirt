@@ -8,8 +8,8 @@ R <- addChannels(R)@grey
 ## create a matrix full of "useR! 2014"
 T <- matrix(
     strsplit('useR!2014', '')[[1]],
-    nrow = 77,
-    ncol = 101,
+    nrow = nrow(R),
+    ncol = ncol(R),
     byrow = TRUE)
 ## remove cells not in the R logo
 T[which(R > 0.85)] <- ' '
