@@ -1,14 +1,19 @@
 library(pixmap)
+## get R logo into a matrix
 R <- read.pnm(
     system.file('pictures/logo.ppm',
                 package = 'pixmap')[1])
+## drop colors
 R <- addChannels(R)@grey
+## create a matrix full of "useR! 2014"
 T <- matrix(
     strsplit('useR!2014', '')[[1]],
     nrow = 77,
     ncol = 101,
     byrow = TRUE)
+## remove cells not in the R logo
 T[which(R > 0.85)] <- ' '
+## save to disk
 write.table(x = T,
             file = 'tshirtImage.txt',
             row.names = FALSE,
