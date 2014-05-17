@@ -14,7 +14,7 @@ T <- matrix(
 ## remove cells not in the R logo
 T[which(R > 0.85)] <- ' '
 ## save to disk
-write.table(x = T,
+write.table(x = T, # never abbreviate TRUE to T :)
             file = 'tshirtImage.txt',
             row.names = FALSE,
             sep = '',
