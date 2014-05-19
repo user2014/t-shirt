@@ -23,10 +23,10 @@ lens = c(19,5,
         6,11,6,1,
         6,12,6,0)
 R<-rep(rep(c(TRUE,FALSE), length.out=length(lens)), times=lens)
-R2<-rep(strsplit('useR12014', '')[[1]],64)
+R2<-rep(strsplit('useR!2014', '')[[1]],64)
 R <- ifelse(R, R2, "")
 
-R[265:286]<-strsplit('user!2014--Los Angeles', '')[[1]]
+R[265:286]<-strsplit('useR!2014--Los Angeles', '')[[1]]
 
 R<-data.frame(matrix(R,ncol=24, byrow=T))
 names(R) = rep(' ', ncol(R))
