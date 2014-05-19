@@ -1,0 +1,30 @@
+The annual useR! international R User conference is the main meeting of the R user and developer community. Its program consists of both invited and user-contributed presentations:
+
+The invited keynote lectures cover a broad spectrum of topics ranging from technical and R-related computing issues to general statistical topics of current interest.
+The user-contributed presentations are submitted as abstracts prior to the conference and may be related to (virtually) any R-related topic. The presentations are typically organized in sessions of either broad or special interest, which also comprise a "free" discussion format. Such a discussion format not only provides a forum for software demonstrations and detailed discussions but also supports the self-organization of the respective communities.
+bill venables
+In 2014, the conference will be held at the campus of the University of California in Los Angeles (UCLA). The conference is being organized with support from the UCLA Statistics Department, the Foundation for Open Access Statistics and the Los Angeles R user group. The organizing committee consists of:
+
+Chair: David McArthur – UCLA School of Medicine.
+Yunyun Dai – UCLA School of Education
+Jan de Leeuw – UCLA Department of Statistics
+Amelia McNamara – UCLA Department of Statistics
+Katharine Mullen – UCLA Department of Statistics
+Jeroen Ooms – UCLA Department of Statistics
+Szilárd Pafka – Los Angeles R User’s Group
+Tim Triche – University of Southern California
+Joshua Wiley – UCLA Department of Psychology
+Questions? Kindly contact dmca [at] ucla.edu using the subject heading userR!2014 question. (Use of a different subject heading in your email may delay our response).
+
+The program committee consists of:
+
+Roger Bivand
+John Fox
+Sarah Goslee
+Ulrike Grömping
+Torsten Hothorn
+Søren Højsgaard
+Nicholas Lewin-Koh
+Uwe Ligges
+Heather Turner
+Achim Zeileis
