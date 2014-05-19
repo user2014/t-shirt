@@ -1,12 +1,3 @@
-useR! 2014 Design
-========================================================
-
-This is some R code for creating a nice useR! 2014 design. The image will be slightly different each time due to the jitter function. Well, you have a very unique image! :-)
-
-
-![DesignImage](useR.png)
-
-```coffee
 #useR! Design R Script
 
 #load libraries
@@ -64,4 +55,3 @@ p<-ggplot()+
 png("useR.png",height=10,width=30,res=200,units="cm",type="cairo")
 print(p)
 dev.off()
-```
