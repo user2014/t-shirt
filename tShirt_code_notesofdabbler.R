@@ -1,5 +1,5 @@
 #
-# Entry for user!12014 T-shirt
+# Entry for useR!2014 T-shirt
 # Author: notesofdabbler
 #
 
